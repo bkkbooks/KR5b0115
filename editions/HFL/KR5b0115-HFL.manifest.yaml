@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0115/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0115/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清含象劍鑑圖
+  date: '2015-08-28 23:49:36.501841'
+  source:
+    repository: kanripo
+    path: KR5b0115
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0115_000-HFL.yaml, hash: 'sha256:71895e840ca32ee215f64467a1a98f31fc03ad806d07a7a299dfa5578b769da7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0115_000-HFL.markers.yaml, hash: 'sha256:9222c58661846e6bbc72e9040fb38dbac7f26fccd5727ad2a77b6a453028747a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0115_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1016
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:96f8b6be5b638986e5530d0106703f05ff896851a444be7e1fe84f06d4bb3946
